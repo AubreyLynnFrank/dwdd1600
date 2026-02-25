@@ -1,7 +1,7 @@
 /* This is the start of my css. */
 
 body {
-font-family: "Oxygen", sans-serif;
+font-family: "Discordia", sans-serif;
 font-size: 16px;
 font-weight: 300;
 margin: 0;
@@ -10,13 +10,13 @@ margin: 0;
 /*This is the header area. */
 
 header {
-background-color: #eaeaea;
+background-color: #9E42F5;
 padding: 1rem 2vw;
 }
 
 header span {
 margin: 0;
-color: #024873;
+color: #b8fff8;
 font-weight: 700;
 font-size: 1.8rem;
 
@@ -25,7 +25,7 @@ font-size: 1.8rem;
 /* This is the navigation area. */
 
 nav {
-background-color: #f7bb07;
+background-color: #9E42F5;
 
 }
 nav ul{
@@ -46,7 +46,7 @@ nav a {
 
 nav li.active a {
     background-color: #024873;
-    color: #f2b705;
+color: #9E42F5;
 }
 
 nav a:hover {
@@ -100,16 +100,16 @@ font: size 0.9rem;
 
 main address {
     font-style: normal;
-    background-color: #f2b705;
+background-color: #9E42F5;
     padding: .5rem;
     width: 12.5rem;
-    border:  3px solid #024873;
+    border:  3px solid #6396b5;
     border-radius: .9rem;
 }
 /*This is the footer stuff here. */
 
 footer {
-background-color:#eaeaea;
+background-color:#66c1a4;
 text-align: center;
 padding: 1rem 0;
 font-size: .8rem;
