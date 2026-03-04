@@ -16,7 +16,7 @@ padding: 1rem 2vw;
 
 header span {
 margin: 0;
-color: #b8fff8;
+color: #73c4f7;
 font-weight: 700;
 font-size: 1.8rem;
 
@@ -38,14 +38,14 @@ display: flex;
 nav a {
     font-size:  1.2rem;
     text-decoration: none;
-    color: #024873;
+    color: #73c4f7;
     font-weight: 700;
     display: block;
     padding: .8rem 2rem;
 }
 
 nav li.active a {
-    background-color: #024873;
+    background-color: #9abdd0;
 color: #9E42F5;
 }
 
@@ -59,31 +59,31 @@ padding: 1rem 2vw;
 }
 
 main h1{
-color: #b4012b;
+color: #7b50b7;
 }
 main h2 {
-color: #024873;
+color: #c297ed;
 margin-bottom: .2rem;
 
 }
 main p{
-color: #333;
+color: #c1a6cd;
 margin: 0;
 }
 
 main ol {
 padding: .5rem 30px;
-background-color: #efefee;
+background-color: #ab79d3;
 list-style-type: lower-roman alpha;
 }
 
 main dl dt{
-color: #b404;
+color: rgba(193, 143, 246, 0.704);
 font-weight: 700;
 }
 
 Main dl dd{
-color: #024873;
+color: #bb72d5;
 font-size: .9rem;
 margin-left: 20px;
 }
@@ -109,7 +109,7 @@ background-color: #9E42F5;
 /*This is the footer stuff here. */
 
 footer {
-background-color:#66c1a4;
+background-color:#00bfff;
 text-align: center;
 padding: 1rem 0;
 font-size: .8rem;
