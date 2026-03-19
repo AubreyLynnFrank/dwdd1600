@@ -1,0 +1,149 @@
+/* This is the start of my css. */
+
+body {
+font-family: "Discordia", sans-serif;
+font-size: 16px;
+font-weight: 300;
+margin: 0;
+}
+
+/*This is the header area. */
+
+header {
+background-color: #9E42F5;
+padding: 1rem 2vw;
+}
+
+header span {
+margin: 0;
+color: #73c4f7;
+font-weight: 700;
+font-size: 1.8rem;
+
+
+}
+/* This is the navigation area. */
+
+nav {
+background-color: #9E42F5;
+
+}
+nav ul{
+list-style-type: none;
+padding: 0px 2vw;
+margin: 0;
+display: flex;
+}
+
+nav a {
+    font-size:  1.2rem;
+    text-decoration: none;
+    color: #73c4f7;
+    font-weight: 700;
+    display: block;
+    padding: .8rem 2rem;
+}
+
+nav li.active a {
+    background-color: #9abdd0;
+color: #9E42F5;
+}
+
+nav a:hover {
+    color: white;
+}
+/*This is main area. */
+main {
+
+padding: 1rem 2vw;
+}
+
+main h1{
+color: #7b50b7;
+}
+main h2 {
+color: #c297ed;
+margin-bottom: .2rem;
+
+}
+main p{
+color: #c1a6cd;
+margin: 0;
+}
+
+main ol {
+padding: .5rem 30px;
+background-color: #ab79d3;
+list-style-type: lower-roman alpha;
+}
+
+main dl dt{
+color: rgba(193, 143, 246, 0.704);
+font-weight: 700;
+}
+
+Main dl dd{
+color: #bb72d5;
+font-size: .9rem;
+margin-left: 20px;
+}
+
+main ul{
+list-style-type:circle;
+}
+
+main ul list{
+line-height: 125%;
+margin-bottom: .5rem;
+font: size 0.9rem;
+}
+
+main address {
+    font-style: normal;
+background-color: #9E42F5;
+    padding: .5rem;
+    width: 12.5rem;
+    border:  3px solid #6396b5;
+    border-radius: .9rem;
+}
+
+/* formatting images here */
+figure.home {
+    width: 30%;
+margin:0 0 0 2%;
+float: right;
+}
+
+figure.home img {
+width: 100%;
+height: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-size: .75 rem;
+}
+div.gallery{
+display: flex;
+flex-wrap:wrap;
+}
+div.gallery figure{
+margin: 0.5rem 2% 0 0;
+}
+
+div.gallery figcaption {
+text-align: center;
+font-size: .8rem;
+color: #024873;
+}
+
+
+/*This is the footer stuff here. */
+
+footer {
+background-color:#00bfff;
+text-align: center;
+padding: 1rem 0;
+font-size: .8rem;
+
+}
