@@ -152,11 +152,11 @@ font-size: .8rem;
 margin: .5rem;
 }
 
-.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform textarea {
+.myform label, .myform select, .myform [type=text], .myform [type=tel], .myform textarea .myform [type=email]{
 display: block;
 
 }
-.myform select, .myform [type=text], .myform [type=tel], .myform textarea {
+.myform select, .myform [type=text], .myform [type=tel], .myform textarea .myform [type=email] {
 border: solid 1px #888;
 padding: .3rem;
 width: 250px;
