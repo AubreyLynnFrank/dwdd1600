@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Aubrey's Art Portfolio"/>
+    <meta name="author" content="Aubrey Frank"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aubrey's Art</title>
+    <link rel="stylesheet" href="aubrey.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <span>Aubrey's Art</span>
+        <img src="images/aubreylogo.png" alt="logo">
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Bio</a></li>
+            <li class="active"><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Request a Chat</h1>
+
+<form method="get" action="thanks.html"  class="myform">
+    <fieldset>
+        <legend>Customer Information</legend>
+<label>First Name: <input type="text" name="firstname" required></label>
+<label>Last Name: <input type="text" name="lastname" required></label>
+<label>Cell Number: <input type="tel" name="phone" required placeholder="***-***-****"></label>
+<label>Email address: <input type="email" name="email"></label>
+     </fieldset>
+     <fieldset>
+    <legend> Favorite Past Times</legend>
+    <label><input type="radio" value="mindcraft" name="method"> Mindcraft</label>
+    <label><input type="radio" value="Drawings" name="method"> Drawings</label>
+<label><input type="radio" value="Video" name="method"> Video</label>
+</fieldset>
+
+<fieldset>
+<legend>Video Chat preferences</legend>
+
+<label><input type= "checkbox" name="Tuesday"value= "Tuesday">Tuesday</label>
+<label><input type= "checkbox" name="Wednesday"value= "Wednesday">Wednesday</label>
+<label><input type= "checkbox" name="Thursday"value= "Thursday">Thursday </label>
+<label><input type= "checkbox" name="Saturday"value= "Saturday">Saturday</label>
+
+<br><br>
+<label>Chat times
+<select name="chat">
+<option value="none"> Please Select</option>
+<option value="five">Five O'clock</option>
+<option value="six">Six O'clock</option>
+<option value="seven">Seven O'clock</option> 
+<option value="eight">Eight O'clock</option>
+</select>
+</label>
+</fieldset>
+
+<label>Comments:
+    <textarea name="comments"></textarea></label>
+
+    <input type= "submit" value="Send Chat Request">
+
+</form>
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2026 Aubrey Frank &bull; All Rights Reserved</p>
+    </footer>
+</body>
+</html>
